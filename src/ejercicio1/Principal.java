@@ -10,8 +10,10 @@ public class Principal {
 		Portatil por = new Portatil(1700, 250, 2.3, "Acer", 20.2);
 		double gan;
 		
-		System.out.println("Indique el porcentaje de ganancia");
-		gan = leer.dato
+		System.out.println("Indique la ganancia");
+		gan = Leer.datoDouble();
+		System.out.printf("El precio de un ordenador sobre mesa es %.2f€\n", sob.calcularPrecio(gan));
+		System.out.printf("El precio de un portatil es %.2f€\n", por.calcularPrecio(gan));
 	}
 
 }
