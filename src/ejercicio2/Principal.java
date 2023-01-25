@@ -22,12 +22,10 @@ public class Principal {
 		number = Leer.dato();
 		System.out.println("Diga el email");
 		email = Leer.dato();
-		tar = new Tarjeta(doc.getNombreEmp(), doc.getCiudad(), doc.getDireccion(), 
-				number, email);
+		tar = new Tarjeta(name, city, address, number, email);
 		System.out.println("Diga la fecha");
 		date = Leer.dato();
-		car = new Carta(doc.getNombreEmp(), doc.getCiudad(), doc.getDireccion(), 
-				date);
+		car = new Carta(name, city, address, date);
 		
 		do {
 			System.out.println("-------------MENU-------------");
