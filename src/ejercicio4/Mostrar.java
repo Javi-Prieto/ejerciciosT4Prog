@@ -30,7 +30,7 @@ public class Mostrar {
 			if(lista[i] == null) {
 				
 			}else {
-				System.out.println(lista[i].getCant() + " \t " + lista[i].getPr().getNombre() + " \t " + lista[i].precioTotal());
+				System.out.println(lista[i].getCant() + " \t " + lista[i].getPr().getNombre() + " \t " + lista[i].getPr().getPrecioUnit() + " \t\t " + lista[i].precioTotal());
 			}
 		}
 		System.out.println("---------------------------------------------------");

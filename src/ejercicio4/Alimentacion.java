@@ -3,12 +3,13 @@ package ejercicio4;
 public class Alimentacion extends Producto {
 	//Fields
 	private int diaCaducidad;
-	private boolean descontado = false;
+	private boolean descontado;
 	//Constructor
 
-	public Alimentacion(double precioUnit, String nombre, String id, int caducidad) {
+	public Alimentacion(double precioUnit, String nombre, String id, int caducidad, boolean des) {
 		super(precioUnit, nombre, id);
 		this.diaCaducidad = caducidad;
+		this.descontado = des;
 	}
 	//Getter and setter
 
