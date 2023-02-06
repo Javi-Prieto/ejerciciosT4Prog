@@ -32,7 +32,7 @@ public class Vendedor extends Empleado {
 	@Override
 	public double calcularSueldoF() {
 		// TODO Auto-generated method stub
-		return super.getSueldoB() + ((cantidadV * 100)*(1+incentivo/100));
+		return super.getSueldoB() + (cantidadV * (100 * (1+incentivo)));
 	}
 
 	@Override
