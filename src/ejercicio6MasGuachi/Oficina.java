@@ -34,7 +34,12 @@ public class Oficina {
 	//Methods
 	public void mostrarCuentas(String dni) {
 		for(int i = 0; i < lista[findByDNI(dni)].getLista().length; i++) {
-			System.out.println((i+1)+". " + lista[findByDNI(dni)].getLista()[i]);
+			if(lista[findByDNI(dni)].getLista()[i] == null) {
+				System.out.println((i+1)+". Aún sin rellenar");
+			}else {
+				System.out.println((i+1)+". " + lista[findByDNI(dni)].getLista()[i]);
+			}
+			
 		}
 	}
 	public void mostrarClientes() {
