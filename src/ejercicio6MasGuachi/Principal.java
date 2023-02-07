@@ -85,11 +85,13 @@ public class Principal {
 							System.out.println("Diga el dinero a ingresar");
 							ingr = Leer.datoDouble();
 							of.ingresarDinero(ingr, opCu, dni);
+							of.mostrarSaldo(dni, posiCu);
 							break;
 						case 2:
 							System.out.println("Diga el dinero a ingresar");
 							ret = Leer.datoDouble();
 							of.retirarDinero(ret, opCu, dni);
+							of.mostrarSaldo(dni, posiCu);
 							break;
 						case 0:
 							System.out.println("Volviendo al menú");

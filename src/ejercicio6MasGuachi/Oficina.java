@@ -99,4 +99,7 @@ public class Oficina {
 			lista[findByDNI(dni)].getLista()[posi] = cu;
 		}
 	}
+	public void mostrarSaldo(String dni, int posi) {
+		System.out.println("El saldo es: " + lista[findByDNI(dni)].getLista()[posi-1].getSaldo());
+	}
 }

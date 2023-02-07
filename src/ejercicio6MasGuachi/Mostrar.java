@@ -11,8 +11,8 @@ public class Mostrar {
 		System.out.println("3. Ingresar o retirar dinero");
 		System.out.println("4. Mostrar Clientes");
 		System.out.println("5. Mostrar Cuentas de un cliente");
-		System.out.println("5. Dinero ganado con CE");
-		System.out.println("6. Dinero perdido con CJ");
+		System.out.println("6. Dinero ganado con CE");
+		System.out.println("7. Dinero perdido con CJ");
 		System.out.println("0. Salir");
 		System.out.println("------------------------------------");
 	}
