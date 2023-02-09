@@ -36,6 +36,7 @@ public class Principal {
 					listaCu = new Cuenta[tam];
 					cl = new Cliente(nombre, apellidos, dni, listaCu);
 					of.addCliente(cl, posiCl);
+					posiCl ++;
 					break;
 				case 2:
 					System.out.println("Indique el dni del cliente");
